@@ -51,4 +51,7 @@ interface ParentRepo extends JpaRepository<Parent, Integer> {
 }
 ```   
     
-More tests is ![here](src/test/java/io/github/cepr0/demo/repo/ParentRepoTest.java).
+More tests is [here](src/test/java/io/github/cepr0/demo/repo/ParentRepoTest.java).
+
+Hibernate issue: https://hibernate.atlassian.net/browse/HHH-12489
+Spring Data issue: https://jira.spring.io/browse/DATAJPA-1299
